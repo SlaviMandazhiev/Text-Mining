@@ -15,11 +15,35 @@ Separately, I trained a Word2Vec model based on skip-grams to learn contexts of 
 1. **Data Preprocessing** Tokenization, stopword removal, lemmatization.  
 2. **Text Vectorization** Bag of Words model for converting text to vectors.  
 3. **Model Training** SGDClassifier for emotion prediction.  
-4. **N-gram Generation** 3-gram and 5-gram models to create new documents.  
+4. **N-gram Generation** 2-gram and 5-gram models to create new documents.  
 5. **Evaluation** Accuracy and class distribution comparison.
 
 # How to set up the project using Git Bash:
 ```bash
+# clone the repository to your local machine
 git clone https://github.com/SlaviMandazhiev/Text-Mining.git
+
+# go into the project directory
 cd Text-Mining
+
+# create a python virtual environment (optional, but recommended)
+python -m venv venv
+
+# activate the environment (for Windows)
+source venv/Scripts/activate
+
+# activate the environment (for Mac/Linux)
+source venv/bin/activate
+
+# install the required libraries
+pip install -r requirements.txt
+
+# you have to unzip the emotions.zip file
+unzip emotions.zip
+
+#launch Jupyter Notebook
+jupyter notebook
+
+#finally, open 'text_mining.ipynb' and have fun!
+
 

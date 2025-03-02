@@ -8,8 +8,8 @@ Then I preprocess the corpus once again to make it suitable for the n-gram Maxim
 Separately, I trained a Word2Vec model based on skip-grams to learn contexts of words and embed them into vectors, so that I could explore some cosine similarities.
 
 # Tools used:
--**Languages:** Python
--**Libraries:** NLTK, Gensim, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn
+- **Languages:** Python
+- **Libraries:** NLTK, Gensim, Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn
 
 # Key Features:
 1. **Data Preprocessing** Tokenization, stopword removal, lemmatization.  
@@ -19,7 +19,7 @@ Separately, I trained a Word2Vec model based on skip-grams to learn contexts of 
 5. **Evaluation** Accuracy and class distribution comparison.
 
 # How to set up the project using Git Bash:
-'''bash
+```bash
 git clone https://github.com/SlaviMandazhiev/Text-Mining.git
 cd Text-Mining
 
